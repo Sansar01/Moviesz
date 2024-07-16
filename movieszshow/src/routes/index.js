@@ -17,7 +17,7 @@ function Index() {
         </Route>
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
 export default Index
