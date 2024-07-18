@@ -5,6 +5,7 @@ import { mobileNavigation } from "../contants/navigation";
 
 function MobileNavigation() {
   return (
+    
     <section className="lg:hidden h-14 bg-neutral-600 bg-opacity-40 fixed bottom-0 w-full">
       <div className="flex items-center justify-between h-full text-neutral-400">
         {mobileNavigation.map((nav, index) => (
